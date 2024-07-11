@@ -1,0 +1,31 @@
+h3{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hala{
+    margin: 5%;
+    border: 20px solid brown;
+    padding: 10px 40px 50px; /* T RL B */
+    box-shadow: 10px 10px 10px rgba(128, 0, 0, 0.689);
+}
+
+#second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+#madrid{
+    border: 2px solid orangered;
+    margin: 20px;
+    /* box-shadow: 10px 10px 10px rgba(255, 68, 0, 0.486); */
+    display: inline-block;
+}
+
+/*
+li{
+    display: inline:
+}
+*/
+
