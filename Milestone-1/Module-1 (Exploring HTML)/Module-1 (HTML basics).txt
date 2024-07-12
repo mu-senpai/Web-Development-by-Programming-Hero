@@ -1,0 +1,26 @@
+Ctrl+Shift+N ---> creating new folder
+
+<strong></strong> tag is alternative of bold tag. It's a semantic (meaningful) tag.
+
+<em></em> is alternative of italic tag.
+
+Ctrl+B ---> to minimize the side bar in VS code
+
+Ctrl+L ---> to select the link of the tab
+
+Write tag then press tab key to complete the tag in VS code
+
+Anchor tag to open the hyperlink in the new tab: <a href="#" target="_blank" rel="noopener noreferrer">Link</a>
+-however, on FireFox at least if you do two underscores target="__blank" it will open in a new tab, but clicking other links using the same double underscore, opens the new pages in the previous new tab, meaning you only have one additional tab open.
+-The rel="noopener noreferrer" is to prevent the newly opened tab from being able to modify the original tab maliciously. You no longer need to use rel="noopener" while using target="_blank", it is added by default source.
+
+Different input tags: https://www.w3schools.com/tags/tag_input.asp
+
+Creating favicon inside of head tag:
+<head>
+  <title>My Page Title</title> //title
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> //favicon
+</head>
+
+Meta tag is used to help SEO.
+

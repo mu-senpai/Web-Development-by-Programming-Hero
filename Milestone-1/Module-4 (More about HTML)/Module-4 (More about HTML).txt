@@ -1,0 +1,7 @@
+Self learn
+-iframe
+-more on audio n video tag
+
+HTML5 Tags: https://www.tutorialrepublic.com/html-reference/html5-tags.php
+
+HTML5 Attributes: https://www.w3schools.com/tags/ref_attributes.asps

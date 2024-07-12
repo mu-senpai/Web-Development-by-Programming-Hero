@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+    <title>Chagolo er pitha ghor</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blog.html">My Blogs</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="video.html">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="">
+            <h1 style="text-align: center;">Chagolo er pitha ghor</h1>
+            <h3>Give us your order information!</h3>
+            <label for="name"> Your Name:
+                <input type="text" name="" id="name" placeholder="Write your name here">
+            </label>
+            <label for="email"> Your Email:
+                <input type="text" name="" id="email" placeholder="Write your email here">
+            </label>
+            <label for="phone"> Your contact no:
+                <input type="text" name="" id="phone" placeholder="Write your contact no here">
+            </label>
+
+            <fieldset>
+                <legend>Choose only one pitha</legend>
+                <label for="Chitoi">
+                    <input type="radio" name="Pitha" id="Chitoi" value=""> Chitoi
+                </label>
+                <label for="Bhapa">
+                    <input type="radio" name="Pitha" id="Bhapa" value=""> Bhapa
+                </label>
+                <label for="Patishapta">
+                    <input type="radio" name="Pitha" id="Patishapta" value=""> Patishapta
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Choose one or more bhorta</legend>
+                <label for="Shorisha">
+                    <input type="checkbox" name="Bhorta" id="Shorisha"> Shorisha
+                </label>
+                <label for="Shutki">
+                    <input type="checkbox" name="Bhorta" id="Shutki"> Shutki
+                </label>
+                <label for="Morich">
+                    <input type="checkbox" name="Bhorta" id="Morich"> Morich
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Give us your instruction</legend>
+                <textarea name="" id="" cols="160" rows="5">Write your instruction here</textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

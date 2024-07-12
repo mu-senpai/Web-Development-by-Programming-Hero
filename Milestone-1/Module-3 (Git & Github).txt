@@ -1,0 +1,1 @@
+Ctrl+J ---> To create a terminal on VS code

@@ -1,0 +1,4 @@
+We can't use height, width, padding, margin on inline element properly.
+text-align can't be used on inline elements
+click-path
+Google font

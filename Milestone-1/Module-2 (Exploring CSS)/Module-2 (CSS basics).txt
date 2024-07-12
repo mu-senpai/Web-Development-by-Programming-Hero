@@ -1,0 +1,75 @@
+style="style rule: value;"
+
+Inline style can't be reused.
+
+CSS measurement units: https://www.w3schools.com/cssref/css_units.php
+
+Alt+Shift+PgDn ---> Line replication in VS code
+
+Default font size: 16px
+
+font-weight: bold (size 400 is normal)
+
+Multiple class can be used but only one id can be used.
+
+CSS Box Model (https://www.w3schools.com/css/css_boxmodel.asp): content, border, margin, padding, width-height
+
+Properties n respective values of CSS (Key)
+color: rgb(0x16, 0x16, 0x16)/rgba(0x16, 0x16, 0x16, 0x16);
+background-color: rgb(0x16, 0x16, 0x16)/rgba(0x16, 0x16, 0x16, 0x16);
+width/height: px/em/%/rem/vw/vh;
+text-align: center/left/right/justify..;
+font-size: large/small/..value;
+font-weight: bold/..;
+font-family
+text-decoration: overline/..;
+background-image: url('');
+background-repeat: no-repeat/repeat-x/repeat-y;
+background-size: cover/contain/auto/px;
+background-position: top/left top/right bottom/..center/% %;
+#display: none (won't occupy the space)/hidden (occupy the space)/block/inline-block;
+#visibility
+*margin: px/..;
+*margin: px px/.. ..; TB LR
+*margin: px px px/.. .. ..; T LR B
+*margin: px px px px/.. .. .. ..; T R L B
+*margin-top
+*margin-bottom
+*margin-left
+*margin-right
+**border: px/.. solid/dashed/dotted/.. color;
+**border-top: px/.. solid/dashed/dotted/.. color;
+**border-left: px/.. solid/dashed/dotted/.. color;
+**border-left-color
+**border-left-width
+**border-left-style
+**border-right: px/.. solid/.. color;
+**border-bottom: none;
+**border-radius: px/px px/px px px/px px px px;
+**border-radius: px px; T-L+B-R | B-L+T-R
+**border-radius: px px px; T-L | B-R+T-R | B-L
+**border-radius: px px px px; T-L | T-R | B-R | B-L
+**border-top-left-radius
+**border-bottom-left-radius
+***padding: px/..;
+***padding: px px/.. ..;
+***padding: px px px/.. .. ..;
+***padding: px px px px/.. .. .. ..;
+***padding-left
+***padding-right
+***padding-top
+***padding-bottom
+****box shadow: px/px px/px px px/px px px px color;
+
+
+Selectors of CSS
+2. Class (Using two classes at the same time: possible by writing two class with a single space in between)
+1. ID
+4. Universal (*{})
+3. Element
+#. Grouping
+#. Attribute (input[type="submit"]{})
+
+Attributes to define different selectors in CSS
+id="abc" (#abc{})
+class="abc" (.abc{})
